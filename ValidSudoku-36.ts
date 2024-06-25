@@ -1,4 +1,4 @@
-function isValidSudoku() {
+function isValidSudoku(board: string[][]): boolean {
   let rows = true;
   let columns = true;
   let boxes = true;
@@ -69,4 +69,3 @@ function isValidSudoku() {
 
   return true;
 }
-console.log(isValidSudoku());
