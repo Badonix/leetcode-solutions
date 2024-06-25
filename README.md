@@ -1,1 +1,1 @@
-Following (https://neetcode.io/)[neetcode 150]
+Following [neetcode 150](https://neetcode.io/)
