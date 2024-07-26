@@ -10,7 +10,7 @@ function groupAnagrams(strs: string[]): string[][] {
       hashmap[sorted] = [el];
     }
   });
-  let arr:any = [];
+  let arr: any = [];
   for (let prop in hashmap) {
     arr.push(hashmap[prop]);
   }
