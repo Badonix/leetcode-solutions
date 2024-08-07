@@ -1,5 +1,5 @@
 function evalRPN() {
-  let tokens = ["4","-2","/","2","-3","-","-"]
+  let tokens = ["4", "-2", "/", "2", "-3", "-", "-"];
   let stack = [];
   let operators = "+-/*";
   for (let i = 0; i < tokens.length; i++) {
@@ -17,7 +17,7 @@ function evalRPN() {
           stack.push(Math.ceil(result));
         }
       } else {
-	console.log(first, token, second)
+        console.log(first, token, second);
         stack.push(eval(`${first}${token}${second}`));
       }
     }
@@ -25,6 +25,4 @@ function evalRPN() {
   return stack[0];
 }
 
-console.log(evalRPN())
-
-
+console.log(evalRPN());
